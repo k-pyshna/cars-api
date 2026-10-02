@@ -22,7 +22,11 @@ class Car(BaseModel):
 # База данных в памяти с тестовыми данными
 db = {
     1: {"brand": "BMW", "model": "X5", "year": 2021, "price": 45000},
-    2: {"brand": "Audi", "model": "A4", "year": 2019, "price": 22000}
+    2: {"brand": "Audi", "model": "A4", "year": 2019, "price": 22000},
+    3: {"brand": "Lamborghini", "model": "Aventador SVJ", "year": 2023, "price": 500000},
+    4: {"brand": "Lada", "model": "2107 Zhiguli", "year": 1988, "price": 1200},
+    5: {"brand": "Volkswagen", "model": "Passat 1.9 TDI", "year": 2002, "price": 1500},
+    6: {"brand": "Sachsenring", "model": "Trabant 601", "year": 1989, "price": 1990}
 }
 
 # 1. GET: Получить список всех автомобилей
